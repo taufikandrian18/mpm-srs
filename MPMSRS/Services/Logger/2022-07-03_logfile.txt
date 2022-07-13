@@ -1,0 +1,14 @@
+2022-07-03 20:13:51.7216 INFO Returned count visiting on this date created by : c09252b9-1887-487f-815c-08da540f8e73
+2022-07-03 20:14:54.8298 INFO Returned count visiting on this date created by : c09252b9-1887-487f-815c-08da540f8e73
+2022-07-03 20:15:36.9013 INFO Returned count visiting on this date created by : c09252b9-1887-487f-815c-08da540f8e73
+2022-07-03 20:31:33.7351 INFO Returned count corrective action created by : c09252b9-1887-487f-815c-08da540f8e73
+2022-07-03 21:07:25.4852 INFO Returned percentage by int corrective action which is done
+2022-07-03 21:13:16.0022 INFO Returned percentage by int corrective action which is done
+2022-07-03 22:35:19.0215 INFO Returned all visiting detail report from database.
+2022-07-03 23:29:57.6925 ERROR Something went wrong inside ExportExcelAllVisitingDetailReports action: There is already an open DataReader associated with this Connection which must be closed first.
+2022-07-03 23:30:43.0166 ERROR Something went wrong inside ExportExcelAllVisitingDetailReports action: There is already an open DataReader associated with this Connection which must be closed first.
+2022-07-03 23:32:53.6982 ERROR Something went wrong inside ExportExcelAllVisitingDetailReports action: Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+2022-07-03 23:33:45.4700 ERROR Something went wrong inside ExportExcelAllVisitingDetailReports action: Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+2022-07-03 23:39:03.1053 ERROR Something went wrong inside ExportExcelAllVisitingDetailReports action: An exception was thrown while attempting to evaluate a LINQ query parameter expression. See the inner exception for more information. To show additional information call 'DbContextOptionsBuilder.EnableSensitiveDataLogging'.
+2022-07-03 23:39:25.5963 ERROR Something went wrong inside ExportExcelAllVisitingDetailReports action: An exception was thrown while attempting to evaluate a LINQ query parameter expression. See the inner exception for more information. To show additional information call 'DbContextOptionsBuilder.EnableSensitiveDataLogging'.
+2022-07-03 23:47:02.9562 ERROR Something went wrong inside ExportExcelAllVisitingDetailReports action: Length cannot be less than zero. (Parameter 'length')

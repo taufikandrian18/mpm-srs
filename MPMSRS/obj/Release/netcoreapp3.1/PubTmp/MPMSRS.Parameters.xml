@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="mpm-srs-backend-dev" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^/Users/taufikandrian/Documents/WIT/taufikandrian/MPMSRS/MPM\.SRS-Backend/MPMSRS/obj/Release/netcoreapp3\.1/PubTmp/Out/$" />
+  </parameter>
+</parameters>

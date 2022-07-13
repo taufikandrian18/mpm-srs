@@ -1,0 +1,14 @@
+2022-04-07 14:34:53.3363 ERROR Something went wrong inside AuthForgotPasswordMainDealer action: Object reference not set to an instance of an object.
+2022-04-07 14:37:11.4706 ERROR User object password has reset successfully .
+2022-04-07 14:37:30.8141 ERROR User object password has reset successfully .
+2022-04-07 14:37:41.0268 ERROR User object password has reset successfully .
+2022-04-07 14:38:47.5250 ERROR User object password has reset successfully .
+2022-04-07 14:40:32.0174 ERROR User object password has reset successfully .
+2022-04-07 14:43:42.2960 ERROR User object password has reset successfully .
+2022-04-07 14:45:10.7460 ERROR User object sent from client wrong username, email or body parts.
+2022-04-07 14:45:29.3280 ERROR User object password has reset successfully .
+2022-04-07 16:17:40.8265 ERROR Something went wrong inside GetUserById action: An error occurred while updating the entries. See the inner exception for details.
+2022-04-07 16:31:08.1612 ERROR New Password Does Not Match With The Confirm Password.
+2022-04-07 21:03:24.4611 ERROR User object sent from client wrong username or password.
+2022-04-07 21:04:42.2305 ERROR User object sent from client wrong username or password.
+2022-04-07 21:06:27.6641 INFO Returned all visiting by login id from database.

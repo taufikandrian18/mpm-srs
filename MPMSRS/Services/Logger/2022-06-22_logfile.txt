@@ -1,0 +1,59 @@
+2022-06-22 13:04:29.1775 ERROR User object sent from client wrong username or password.
+2022-06-22 13:04:57.4326 ERROR User object sent from client wrong username or password.
+2022-06-22 13:05:05.4071 ERROR User object sent from client wrong username or password.
+2022-06-22 13:23:44.2512 ERROR Visiting with id: 00000000-0000-0000-0000-000000000000, hasn't been found in db.
+2022-06-22 13:24:02.7166 INFO Returned Visiting with id: 351387bc-9ac0-4561-2feb-08da53774ce4
+2022-06-22 13:35:32.2581 INFO Returned Visiting with id: e5872123-95e9-41e7-9f76-08da54102c96
+2022-06-22 13:41:33.1860 INFO Returned Visiting with id: e5872123-95e9-41e7-9f76-08da54102c96
+2022-06-22 14:04:54.4971 ERROR Something went wrong inside GetVisitingStatusByCreateDivisionId action: The LINQ expression 'DbSet<Visitings>()
+    .Join(
+        inner: DbSet<Networks>(), 
+        outerKeySelector: v => v.NetworkId, 
+        innerKeySelector: n => n.NetworkId, 
+        resultSelector: (v, n) => new TransparentIdentifier<Visitings, Networks>(
+            Outer = v, 
+            Inner = n
+        ))
+    .Join(
+        inner: DbSet<VisitingTypes>(), 
+        outerKeySelector: ti => ti.Outer.VisitingTypeId, 
+        innerKeySelector: v0 => v0.VisitingTypeId, 
+        resultSelector: (ti, v0) => new TransparentIdentifier<TransparentIdentifier<Visitings, Networks>, VisitingTypes>(
+            Outer = ti, 
+            Inner = v0
+        ))
+    .Where(ti0 => __userList_0.Contains(Guid.Parse(ti0.Outer.Outer.CreatedBy)) && ti0.Outer.Outer.VisitingStatus.Contains(__status_1) && ti0.Outer.Outer.IsDeleted == False)' could not be translated. Additional information: Translation of method 'System.Guid.Parse' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+2022-06-22 14:06:16.1753 ERROR Something went wrong inside GetVisitingStatusByCreateDivisionId action: The LINQ expression 'DbSet<Visitings>()
+    .Join(
+        inner: DbSet<Networks>(), 
+        outerKeySelector: v => v.NetworkId, 
+        innerKeySelector: n => n.NetworkId, 
+        resultSelector: (v, n) => new TransparentIdentifier<Visitings, Networks>(
+            Outer = v, 
+            Inner = n
+        ))
+    .Join(
+        inner: DbSet<VisitingTypes>(), 
+        outerKeySelector: ti => ti.Outer.VisitingTypeId, 
+        innerKeySelector: v0 => v0.VisitingTypeId, 
+        resultSelector: (ti, v0) => new TransparentIdentifier<TransparentIdentifier<Visitings, Networks>, VisitingTypes>(
+            Outer = ti, 
+            Inner = v0
+        ))
+    .Where(ti0 => __userList_0.Contains(Guid.Parse(ti0.Outer.Outer.CreatedBy)) && ti0.Outer.Outer.VisitingStatus.Contains(__status_1) && ti0.Outer.Outer.IsDeleted == False)' could not be translated. Additional information: Translation of method 'System.Guid.Parse' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+2022-06-22 14:09:44.1555 INFO Returned all visiting by create division id from database.
+2022-06-22 14:11:52.3244 INFO Returned all visiting by create division id from database.
+2022-06-22 14:14:19.7760 INFO Returned all visiting by create division id from database.
+2022-06-22 14:16:49.3486 INFO Returned all visiting by create division id from database.
+2022-06-22 14:19:59.4603 INFO Returned all visiting by create division id from database.
+2022-06-22 14:20:45.6178 INFO Returned all visiting by create division id from database.
+2022-06-22 14:22:31.7601 INFO Returned all visiting by create division id from database.
+2022-06-22 14:23:15.8691 INFO Returned all visiting by create division id from database.
+2022-06-22 16:33:43.1969 INFO Returned all visiting detail report from database.
+2022-06-22 16:35:08.8831 INFO Returned all visiting detail report from database.
+2022-06-22 20:26:23.1843 ERROR Something went wrong inside CreateUser action: Object reference not set to an instance of an object.
+2022-06-22 20:28:54.3266 ERROR Something went wrong inside CreateUser action: Object reference not set to an instance of an object.
+2022-06-22 23:46:06.6005 ERROR Something went wrong inside CreateVisitingDetailReport action: Object reference not set to an instance of an object.
+2022-06-22 23:46:55.2896 ERROR Something went wrong inside CreateVisitingDetailReport action: Object reference not set to an instance of an object.
+2022-06-22 23:47:10.3373 ERROR Something went wrong inside CreateVisitingDetailReport action: Object reference not set to an instance of an object.
+2022-06-22 23:48:50.5920 ERROR Something went wrong inside CreateVisitingDetailReport action: Object reference not set to an instance of an object.

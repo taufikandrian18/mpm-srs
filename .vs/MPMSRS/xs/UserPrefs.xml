@@ -1,0 +1,45 @@
+﻿<Properties StartupConfiguration="{632E9740-E016-436E-AD41-2CD8459FFF96}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MPMSRS/Controllers/EventDetailReportApiController.cs">
+    <Files>
+      <File FileName="MPMSRS/Controllers/EventDetailReportApiController.cs" Line="106" Column="1" />
+      <File FileName="MPMSRS/Models/VM/EventDetailReportDto.cs" />
+      <File FileName="MPMSRS/appsettings.Development.json" Line="10" Column="126" />
+      <File FileName="MPMSRS/Controllers/ChecklistApiController.cs" />
+      <File FileName="MPMSRS/Services/Repositories/ChecklistRepository.cs" />
+      <File FileName="MPMSRS/Controllers/VisitingDetailReportApiController.cs" />
+      <File FileName="MPMSRS/Services/Repositories/VisitingDetailReportRepository.cs" />
+      <File FileName="MPMSRS/Services/Repositories/EventDetailReportRepository.cs" Line="136" Column="107" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MPMSRS" expanded="True">
+            <Node name="MPMSRS" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="EventDetailReportApiController.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True">
+                <Node name="VM" expanded="True" />
+              </Node>
+              <Node name="Services" expanded="True">
+                <Node name="Repositories" expanded="True" />
+              </Node>
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.MPMSRS PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/taufikandrian/Documents/WIT/taufikandrian/MPMSRS/MPMProd/MPM.SRS-Backend/MPMSRS/Services/Repositories/UserNetworkRepository.cs" relfile="MPMSRS/Services/Repositories/UserNetworkRepository.cs" line="52" column="1" />
+      <Breakpoint file="/Users/taufikandrian/Documents/WIT/taufikandrian/MPMSRS/MPMProd/MPM.SRS-Backend/MPMSRS/Controllers/EventApiController.cs" relfile="MPMSRS/Controllers/EventApiController.cs" line="169" column="1" />
+      <Breakpoint file="/Users/taufikandrian/Documents/WIT/taufikandrian/MPMSRS/MPMProd/MPM.SRS-Backend/MPMSRS/Controllers/Auth/PushNotificationApiController.cs" relfile="MPMSRS/Controllers/Auth/PushNotificationApiController.cs" line="233" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

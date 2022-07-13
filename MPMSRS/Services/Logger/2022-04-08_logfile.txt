@@ -1,0 +1,7 @@
+2022-04-08 00:05:24.6080 INFO Returned all corrective action from database.
+2022-04-08 00:06:07.7166 INFO Returned all corrective action from database.
+2022-04-08 02:29:09.1030 ERROR Something went wrong inside GetAllVisitingDetailReports action: The number of rows provided for a FETCH clause must be greater then zero.
+2022-04-08 02:32:22.7874 ERROR Something went wrong inside GetAllVisitingDetailReports action: The number of rows provided for a FETCH clause must be greater then zero.
+2022-04-08 02:33:12.2335 INFO Returned all visiting detail report from database.
+2022-04-08 02:36:53.7428 INFO Returned Visiting with id: 0404a960-ed03-43f7-79a2-08da18b42244
+2022-04-08 02:39:27.0239 INFO Returned all visiting detail report list from database.

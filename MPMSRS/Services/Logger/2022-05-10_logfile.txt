@@ -1,0 +1,2 @@
+2022-05-10 13:24:53.7413 ERROR data in row: 2060, can't be empty.
+2022-05-10 13:34:13.5489 INFO Returned all networks from database.

@@ -1,0 +1,23 @@
+2022-03-17 00:21:41.6439 INFO Returned all network by login id from database.
+2022-03-17 00:22:55.9353 INFO Returned all network by login id from database.
+2022-03-17 00:22:58.3629 INFO Returned all network by login id from database.
+2022-03-17 00:24:22.5849 INFO Returned all network by login id from database.
+2022-03-17 00:26:10.1844 INFO Returned all network by login id from database.
+2022-03-17 00:30:48.2268 INFO Returned all network by login id from database.
+2022-03-17 00:31:03.8482 INFO Returned all network by login id from database.
+2022-03-17 00:44:27.4121 INFO Returned all network by login id from database.
+2022-03-17 00:44:40.6114 INFO Returned all network by login id from database.
+2022-03-17 00:44:46.1629 INFO Returned all network by login id from database.
+2022-03-17 00:50:53.8519 INFO Returned all network by login id from database.
+2022-03-17 00:51:09.1735 INFO Returned all network by login id from database.
+2022-03-17 00:51:13.7656 INFO Returned all network by login id from database.
+2022-03-17 00:51:29.3168 INFO Returned all network by login id from database.
+2022-03-17 00:51:39.3792 INFO Returned all network by login id from database.
+2022-03-17 00:52:10.7551 INFO Returned all network by login id from database.
+2022-03-17 01:01:49.8427 INFO Returned all network city from database.
+2022-03-17 01:05:41.9914 INFO Returned all network city from database.
+2022-03-17 01:06:26.6290 INFO Returned all network city from database.
+2022-03-17 01:11:18.1978 INFO Returned all network city from database.
+2022-03-17 18:48:22.3159 INFO Returned user with id: 561c135c-930e-4178-0d9d-08da06856454
+2022-03-17 18:48:56.7972 INFO Returned user with id: c8b49d59-5ade-4c4b-9db5-08d9fb98a73f
+2022-03-17 21:19:55.1408 INFO Returned all network by login id from database.

@@ -1,0 +1,219 @@
+2022-03-22 14:21:12.6120 ERROR Something went wrong inside GetAllVisitingDetailReportList action: The LINQ expression 'DbSet<VisitingDetailReports>()
+    .Where(v => v.IsDeleted == False && v.VisitingId.Equals(__visitingId_0))
+    .Join(
+        inner: DbSet<VisitingDetailReportProblemCategories>(), 
+        outerKeySelector: v => v.VisitingDetailReportId, 
+        innerKeySelector: v0 => v0.VisitingDetailReportId, 
+        resultSelector: (v, v0) => new TransparentIdentifier<VisitingDetailReports, VisitingDetailReportProblemCategories>(
+            Outer = v, 
+            Inner = v0
+        ))
+    .Where(ti => DbSet<VisitingDetailReportProblemCategories>()
+        .Where(v1 => EF.Property<Nullable<Guid>>(ti.Outer, "VisitingDetailReportId") != null && object.Equals(
+            objA: (object)EF.Property<Nullable<Guid>>(ti.Outer, "VisitingDetailReportId"), 
+            objB: (object)EF.Property<Nullable<Guid>>(v1, "VisitingDetailReportId")))
+        .Select(v1 => v1.VisitingDetailReportPCId).Equals((object)DbSet<VisitingDetailReportProblemCategories>()
+        .Where(v2 => EF.Property<Nullable<Guid>>(ti.Outer, "VisitingDetailReportId") != null && object.Equals(
+            objA: (object)EF.Property<Nullable<Guid>>(ti.Outer, "VisitingDetailReportId"), 
+            objB: (object)EF.Property<Nullable<Guid>>(v2, "VisitingDetailReportId")))
+        .Max(v2 => v2.VisitingDetailReportPCId)))' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+2022-03-22 14:26:56.7336 ERROR Something went wrong inside GetAllVisitingDetailReportList action: The LINQ expression 'DbSet<VisitingDetailReports>()
+    .Where(v => v.IsDeleted == False && v.VisitingId.Equals(__visitingId_0))
+    .Join(
+        inner: DbSet<VisitingDetailReportProblemCategories>(), 
+        outerKeySelector: v => v.VisitingDetailReportId, 
+        innerKeySelector: v0 => v0.VisitingDetailReportId, 
+        resultSelector: (v, v0) => new TransparentIdentifier<VisitingDetailReports, VisitingDetailReportProblemCategories>(
+            Outer = v, 
+            Inner = v0
+        ))
+    .Where(ti => DbSet<VisitingDetailReportProblemCategories>()
+        .Where(v1 => EF.Property<Nullable<Guid>>(ti.Outer, "VisitingDetailReportId") != null && object.Equals(
+            objA: (object)EF.Property<Nullable<Guid>>(ti.Outer, "VisitingDetailReportId"), 
+            objB: (object)EF.Property<Nullable<Guid>>(v1, "VisitingDetailReportId")))
+        .Where(v1 => v1.VisitingDetailReportId == ti.Outer.VisitingDetailReportId)
+        .Max(v1 => v1.VisitingDetailReportPCId).Equals(DbSet<VisitingDetailReportProblemCategories>()
+        .Where(v2 => EF.Property<Nullable<Guid>>(ti.Outer, "VisitingDetailReportId") != null && object.Equals(
+            objA: (object)EF.Property<Nullable<Guid>>(ti.Outer, "VisitingDetailReportId"), 
+            objB: (object)EF.Property<Nullable<Guid>>(v2, "VisitingDetailReportId")))
+        .Select(v2 => v2.VisitingDetailReportPCId)))' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+2022-03-22 14:42:27.8037 ERROR Something went wrong inside GetAllVisitingDetailReportList action: Unable to translate collection subquery in projection since the parent query doesn't project key columns of all of it's tables which are required to generate results on client side. This can happen when trying to correlate on keyless entity or when using 'Distinct' or 'GroupBy' operations without projecting all of the key columns.
+2022-03-22 14:45:34.6914 ERROR Something went wrong inside GetAllVisitingDetailReportList action: Unable to translate collection subquery in projection since the parent query doesn't project key columns of all of it's tables which are required to generate results on client side. This can happen when trying to correlate on keyless entity or when using 'Distinct' or 'GroupBy' operations without projecting all of the key columns.
+2022-03-22 14:48:24.1274 ERROR Something went wrong inside GetAllVisitingDetailReportList action: Unable to translate collection subquery in projection since the parent query doesn't project key columns of all of it's tables which are required to generate results on client side. This can happen when trying to correlate on keyless entity or when using 'Distinct' or 'GroupBy' operations without projecting all of the key columns.
+2022-03-22 14:50:08.1342 ERROR Something went wrong inside GetAllVisitingDetailReportList action: The LINQ expression 'DbSet<VisitingDetailReportProblemCategories>()
+    .Where(v1 => EF.Property<Nullable<Guid>>(EntityShaperExpression: 
+        EntityType: VisitingDetailReports
+        ValueBufferExpression: 
+            ProjectionBindingExpression: Outer.Outer.Outer
+        IsNullable: False
+    , "VisitingDetailReportId") != null && object.Equals(
+        objA: (object)EF.Property<Nullable<Guid>>(EntityShaperExpression: 
+            EntityType: VisitingDetailReports
+            ValueBufferExpression: 
+                ProjectionBindingExpression: Outer.Outer.Outer
+            IsNullable: False
+        , "VisitingDetailReportId"), 
+        objB: (object)EF.Property<Nullable<Guid>>(v1, "VisitingDetailReportId")))
+    .Max()' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+2022-03-22 14:54:28.2994 ERROR Something went wrong inside GetAllVisitingDetailReportList action: The LINQ expression 'DbSet<VisitingDetailReportProblemCategories>()
+    .Where(v1 => EF.Property<Nullable<Guid>>(EntityShaperExpression: 
+        EntityType: VisitingDetailReports
+        ValueBufferExpression: 
+            ProjectionBindingExpression: Outer.Outer.Outer
+        IsNullable: False
+    , "VisitingDetailReportId") != null && object.Equals(
+        objA: (object)EF.Property<Nullable<Guid>>(EntityShaperExpression: 
+            EntityType: VisitingDetailReports
+            ValueBufferExpression: 
+                ProjectionBindingExpression: Outer.Outer.Outer
+            IsNullable: False
+        , "VisitingDetailReportId"), 
+        objB: (object)EF.Property<Nullable<Guid>>(v1, "VisitingDetailReportId")))
+    .Max()' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+2022-03-22 14:58:10.9692 ERROR Something went wrong inside GetAllVisitingDetailReportList action: The LINQ expression 'DbSet<VisitingDetailReportProblemCategories>()
+    .Where(v1 => EF.Property<Nullable<Guid>>(EntityShaperExpression: 
+        EntityType: VisitingDetailReports
+        ValueBufferExpression: 
+            ProjectionBindingExpression: Outer.Outer.Outer
+        IsNullable: False
+    , "VisitingDetailReportId") != null && object.Equals(
+        objA: (object)EF.Property<Nullable<Guid>>(EntityShaperExpression: 
+            EntityType: VisitingDetailReports
+            ValueBufferExpression: 
+                ProjectionBindingExpression: Outer.Outer.Outer
+            IsNullable: False
+        , "VisitingDetailReportId"), 
+        objB: (object)EF.Property<Nullable<Guid>>(v1, "VisitingDetailReportId")))
+    .Where(v1 => v1.VisitingDetailReportId == EntityShaperExpression: 
+        EntityType: VisitingDetailReports
+        ValueBufferExpression: 
+            ProjectionBindingExpression: Outer.Outer.Outer
+        IsNullable: False
+    .VisitingDetailReportId)
+    .Max()' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+2022-03-22 14:59:09.6455 ERROR Something went wrong inside GetAllVisitingDetailReportList action: Unable to translate collection subquery in projection since the parent query doesn't project key columns of all of it's tables which are required to generate results on client side. This can happen when trying to correlate on keyless entity or when using 'Distinct' or 'GroupBy' operations without projecting all of the key columns.
+2022-03-22 14:59:55.6712 INFO Returned all visiting detail report list from database.
+2022-03-22 15:07:39.8068 ERROR Something went wrong inside GetAllVisitingDetailReportList action: The LINQ expression 'DbSet<VisitingDetailReportProblemCategories>()
+    .Where(v1 => EF.Property<Nullable<Guid>>(EntityShaperExpression: 
+        EntityType: VisitingDetailReports
+        ValueBufferExpression: 
+            ProjectionBindingExpression: Outer
+        IsNullable: False
+    , "VisitingDetailReportId") != null && object.Equals(
+        objA: (object)EF.Property<Nullable<Guid>>(EntityShaperExpression: 
+            EntityType: VisitingDetailReports
+            ValueBufferExpression: 
+                ProjectionBindingExpression: Outer
+            IsNullable: False
+        , "VisitingDetailReportId"), 
+        objB: (object)EF.Property<Nullable<Guid>>(v1, "VisitingDetailReportId")))
+    .Select(v1 => v1.VisitingDetailReportPCId)
+    .Any(p => p == MaterializeCollectionNavigation(
+        Navigation: VisitingDetailReports.VisitingDetailReportProblemCategories,
+        subquery: DbSet<VisitingDetailReportProblemCategories>()
+            .Where(i => EF.Property<Nullable<Guid>>(EntityShaperExpression: 
+                EntityType: VisitingDetailReports
+                ValueBufferExpression: 
+                    ProjectionBindingExpression: Outer
+                IsNullable: False
+            , "VisitingDetailReportId") != null && object.Equals(
+                objA: (object)EF.Property<Nullable<Guid>>(EntityShaperExpression: 
+                    EntityType: VisitingDetailReports
+                    ValueBufferExpression: 
+                        ProjectionBindingExpression: Outer
+                    IsNullable: False
+                , "VisitingDetailReportId"), 
+                objB: (object)EF.Property<Nullable<Guid>>(i, "VisitingDetailReportId")))
+        .AsQueryable()
+        .Where(m => m.VisitingDetailReportId == EntityShaperExpression: 
+            EntityType: VisitingDetailReports
+            ValueBufferExpression: 
+                ProjectionBindingExpression: Outer
+            IsNullable: False
+        .VisitingDetailReportId && m.IsDeleted == False)
+        .Select(m => m.VisitingDetailReportPCId)
+        .Max())' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+2022-03-22 15:09:21.9945 ERROR Something went wrong inside GetAllVisitingDetailReportList action: The LINQ expression 'DbSet<VisitingDetailReportProblemCategories>()
+    .Where(v1 => EF.Property<Nullable<Guid>>(EntityShaperExpression: 
+        EntityType: VisitingDetailReports
+        ValueBufferExpression: 
+            ProjectionBindingExpression: Outer
+        IsNullable: False
+    , "VisitingDetailReportId") != null && object.Equals(
+        objA: (object)EF.Property<Nullable<Guid>>(EntityShaperExpression: 
+            EntityType: VisitingDetailReports
+            ValueBufferExpression: 
+                ProjectionBindingExpression: Outer
+            IsNullable: False
+        , "VisitingDetailReportId"), 
+        objB: (object)EF.Property<Nullable<Guid>>(v1, "VisitingDetailReportId")))
+    .Where(v1 => v1.VisitingDetailReportId == EntityShaperExpression: 
+        EntityType: VisitingDetailReports
+        ValueBufferExpression: 
+            ProjectionBindingExpression: Outer
+        IsNullable: False
+    .VisitingDetailReportId && v1.IsDeleted == False)
+    .Select(v1 => v1.VisitingDetailReportPCId)
+    .Any(p => p == MaterializeCollectionNavigation(
+        Navigation: VisitingDetailReports.VisitingDetailReportProblemCategories,
+        subquery: DbSet<VisitingDetailReportProblemCategories>()
+            .Where(i => EF.Property<Nullable<Guid>>(EntityShaperExpression: 
+                EntityType: VisitingDetailReports
+                ValueBufferExpression: 
+                    ProjectionBindingExpression: Outer
+                IsNullable: False
+            , "VisitingDetailReportId") != null && object.Equals(
+                objA: (object)EF.Property<Nullable<Guid>>(EntityShaperExpression: 
+                    EntityType: VisitingDetailReports
+                    ValueBufferExpression: 
+                        ProjectionBindingExpression: Outer
+                    IsNullable: False
+                , "VisitingDetailReportId"), 
+                objB: (object)EF.Property<Nullable<Guid>>(i, "VisitingDetailReportId")))
+        .AsQueryable()
+        .Where(m => m.VisitingDetailReportId == EntityShaperExpression: 
+            EntityType: VisitingDetailReports
+            ValueBufferExpression: 
+                ProjectionBindingExpression: Outer
+            IsNullable: False
+        .VisitingDetailReportId && m.IsDeleted == False)
+        .Select(m => m.VisitingDetailReportPCId)
+        .Max())' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+2022-03-22 15:12:47.5852 ERROR Something went wrong inside GetAllVisitingDetailReportList action: The LINQ expression 'DbSet<VisitingDetailReportProblemCategories>()
+    .Where(v1 => EF.Property<Nullable<Guid>>(EntityShaperExpression: 
+        EntityType: VisitingDetailReports
+        ValueBufferExpression: 
+            ProjectionBindingExpression: Outer.Outer.Outer
+        IsNullable: False
+    , "VisitingDetailReportId") != null && object.Equals(
+        objA: (object)EF.Property<Nullable<Guid>>(EntityShaperExpression: 
+            EntityType: VisitingDetailReports
+            ValueBufferExpression: 
+                ProjectionBindingExpression: Outer.Outer.Outer
+            IsNullable: False
+        , "VisitingDetailReportId"), 
+        objB: (object)EF.Property<Nullable<Guid>>(v1, "VisitingDetailReportId")))
+    .Max()' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+2022-03-22 15:14:45.3571 INFO Returned all visiting detail report list from database.
+2022-03-22 15:28:57.6458 INFO Returned all visiting detail report list from database.
+2022-03-22 15:31:32.3111 INFO Returned all visiting detail report list from database.
+2022-03-22 15:32:05.2078 INFO Returned all visiting detail report from database.
+2022-03-22 15:32:56.8369 INFO Returned all visiting detail report from database.
+2022-03-22 15:33:12.7574 INFO Returned all visiting detail report from database.
+2022-03-22 15:34:27.8779 INFO Returned all visiting detail report from database.
+2022-03-22 15:38:50.4041 ERROR Something went wrong inside GetAllVisitingDetailReports action: The LINQ expression 'DbSet<Visitings>()
+    .Where(ow => ow.IsDeleted == False && ow.VisitingId.Equals(__visitingId_0))
+    .GroupJoin(
+        inner: DbSet<VisitingPeoples>(), 
+        outerKeySelector: u => u.VisitingId, 
+        innerKeySelector: n => n.VisitingId, 
+        resultSelector: (u, n) => new { 
+            u = u, 
+            VisitingPeoples = u.VisitingPeoples, 
+            VisitingNoteMappings = u.VisitingNoteMappings
+         })' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+2022-03-22 15:46:23.9751 INFO Returned all visiting detail report from database.
+2022-03-22 15:47:52.4417 INFO Returned all visiting detail report from database.
+2022-03-22 15:48:22.2313 INFO Returned all visiting detail report list from database.
+2022-03-22 20:55:32.1159 ERROR Something went wrong inside CreateUser action: Object reference not set to an instance of an object.
+2022-03-22 21:15:30.7518 ERROR Something went wrong inside CreateUser action: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')

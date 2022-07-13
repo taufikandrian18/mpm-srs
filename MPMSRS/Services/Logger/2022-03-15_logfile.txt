@@ -1,0 +1,36 @@
+2022-03-15 15:37:57.7305 INFO Returned visiting people by visiting id from database.
+2022-03-15 15:41:36.8880 ERROR Something went wrong inside UpdateVisiting action: An error occurred while updating the entries. See the inner exception for details.
+2022-03-15 15:43:54.1529 ERROR Something went wrong inside UpdateVisiting action: An error occurred while updating the entries. See the inner exception for details.
+2022-03-15 17:09:46.4964 ERROR Something went wrong inside UpdateVisiting action: Cannot create a DbSet for 'List<VisitingPeoples>' because this type is not included in the model for the context.
+2022-03-15 17:37:50.0890 ERROR Something went wrong inside CreateVisitingPeople action: The entity type 'List<VisitingPeoples>' requires a primary key to be defined. If you intended to use a keyless entity type, call 'HasNoKey' in 'OnModelCreating'. For more information on keyless entity types, see https://go.microsoft.com/fwlink/?linkid=2141943.
+2022-03-15 17:38:26.2251 ERROR Something went wrong inside CreateVisitingPeople action: The entity type 'List<VisitingPeoples>' requires a primary key to be defined. If you intended to use a keyless entity type, call 'HasNoKey' in 'OnModelCreating'. For more information on keyless entity types, see https://go.microsoft.com/fwlink/?linkid=2141943.
+2022-03-15 17:41:54.3709 ERROR Something went wrong inside CreateVisitingPeople action: The entity type 'List<VisitingPeoples>' requires a primary key to be defined. If you intended to use a keyless entity type, call 'HasNoKey' in 'OnModelCreating'. For more information on keyless entity types, see https://go.microsoft.com/fwlink/?linkid=2141943.
+2022-03-15 17:43:37.2522 ERROR Something went wrong inside CreateVisitingPeople action: The entity type 'List<VisitingPeoples>' requires a primary key to be defined. If you intended to use a keyless entity type, call 'HasNoKey' in 'OnModelCreating'. For more information on keyless entity types, see https://go.microsoft.com/fwlink/?linkid=2141943.
+2022-03-15 17:45:51.5975 ERROR Something went wrong inside CreateVisitingPeople action: The entity type 'List<VisitingPeoples>' requires a primary key to be defined. If you intended to use a keyless entity type, call 'HasNoKey' in 'OnModelCreating'. For more information on keyless entity types, see https://go.microsoft.com/fwlink/?linkid=2141943.
+2022-03-15 18:08:06.0903 ERROR Visiting with id: 00000000-0000-0000-0000-000000000000, hasn't been found in db.
+2022-03-15 18:08:43.2211 INFO Returned Visiting with id: 824716f5-aa4c-49d8-8c0c-08da00df7005
+2022-03-15 18:17:30.8662 INFO Returned Visiting with id: 824716f5-aa4c-49d8-8c0c-08da00df7005
+2022-03-15 19:20:09.7873 ERROR Something went wrong inside UpdateVisitingNoteMapping action: An error occurred while updating the entries. See the inner exception for details.
+2022-03-15 19:22:14.1393 ERROR Something went wrong inside UpdateVisitingNoteMapping action: An error occurred while updating the entries. See the inner exception for details.
+2022-03-15 19:49:24.5527 INFO Returned user with role id: 8e570c4f-3719-4246-d281-08d9fb98a6da and division id: 7c80deda-ab70-407d-1a9b-08d9fb98a719
+2022-03-15 22:32:14.4007 ERROR Something went wrong inside GetAllVisitings action: variable 'pc' of type 'System.Collections.Generic.IEnumerable`1[MPMSRS.Models.Entities.VisitingDetailReportProblemCategories]' referenced from scope '', but it is not defined
+2022-03-15 23:12:11.1186 ERROR Something went wrong inside GetAllVisitings action: variable 'pc' of type 'System.Collections.Generic.IEnumerable`1[MPMSRS.Models.Entities.VisitingDetailReportProblemCategories]' referenced from scope '', but it is not defined
+2022-03-15 23:45:44.2808 ERROR Something went wrong inside GetAllVisitings action: The LINQ expression 'DbSet<VisitingDetailReports>()
+    .Where(ow => ow.IsDeleted == False && ow.VisitingId.Equals(__visitingId_0))
+    .Join(
+        inner: DbSet<VisitingDetailReportProblemCategories>(), 
+        outerKeySelector: vdr => vdr.VisitingDetailReportId, 
+        innerKeySelector: pc => pc.VisitingDetailReportId, 
+        resultSelector: (vdr, pc) => new { 
+            vdr = vdr, 
+            pc = pc
+         })
+    .Select(vdri => new { vdri = vdri })
+    .GroupJoin(
+        inner: DbSet<VisitingDetailReportAttachments>(), 
+        outerKeySelector: vdr => vdr.vdri.vdr.VisitingDetailReportId, 
+        innerKeySelector: att => att.VisitingDetailReportId, 
+        resultSelector: (vdr, att) => new { 
+            vdr = vdr.vdri.vdr, 
+            att = att
+         })' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.

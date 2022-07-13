@@ -1,0 +1,4 @@
+2022-01-19 21:29:33.3049 INFO Here is info message from the controller.
+2022-01-19 21:29:33.3357 DEBUG Here is debug message from the controller.
+2022-01-19 21:29:33.3376 WARN Here is warn message from the controller.
+2022-01-19 21:29:33.3376 ERROR Here is error message from the controller.

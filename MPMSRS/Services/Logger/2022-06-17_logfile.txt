@@ -1,0 +1,19 @@
+2022-06-17 14:56:25.0705 ERROR Something went wrong inside GetRoleById action: Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+2022-06-17 14:57:47.5968 ERROR Something went wrong inside GetRoleById action: Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+2022-06-17 14:58:19.7026 ERROR Something went wrong inside GetRoleById action: Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+2022-06-17 15:00:04.9815 ERROR Something went wrong inside GetRoleById action: Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+2022-06-17 15:03:56.4713 INFO Returned corrective action with id: 2c98f7f0-b5c2-4c86-da80-08da50280318
+2022-06-17 15:04:48.6745 INFO Returned corrective action with id: 2c98f7f0-b5c2-4c86-da80-08da50280318
+2022-06-17 15:10:08.9320 INFO Returned all networks from database.
+2022-06-17 15:10:09.5428 ERROR Something went wrong inside GetAllNetworks action: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+NetworkDtoViewModel -> IEnumerable`1
+MPMSRS.Models.VM.NetworkDtoViewModel -> System.Collections.Generic.IEnumerable`1[[MPMSRS.Models.VM.NetworkDto, MPMSRS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+2022-06-17 15:10:33.5980 INFO Returned all networks from database.
+2022-06-17 15:10:33.7637 ERROR Something went wrong inside GetAllNetworks action: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+NetworkDtoViewModel -> IEnumerable`1
+MPMSRS.Models.VM.NetworkDtoViewModel -> System.Collections.Generic.IEnumerable`1[[MPMSRS.Models.VM.NetworkDto, MPMSRS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+2022-06-17 15:11:32.5958 INFO Returned all networks from database.

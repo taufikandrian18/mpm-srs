@@ -1,0 +1,11 @@
+2022-03-24 12:08:40.5740 ERROR Something went wrong inside GetAllVisitingDetailReportList action: Object reference not set to an instance of an object.
+2022-03-24 12:09:06.8124 ERROR Something went wrong inside GetAllVisitingDetailReportList action: Object reference not set to an instance of an object.
+2022-03-24 12:10:17.9568 INFO Returned all visiting detail report list from database.
+2022-03-24 12:16:20.9618 ERROR Something went wrong inside GetAllVisitingDetailReportList action: Object reference not set to an instance of an object.
+2022-03-24 12:48:45.1335 INFO Returned all visiting detail report list from database.
+2022-03-24 12:50:26.5814 INFO Returned all visiting detail report from database.
+2022-03-24 12:53:01.1692 INFO Returned all visiting detail report from database.
+2022-03-24 13:37:45.6914 ERROR Something went wrong inside GetAllVisitingDetailReports action: Object reference not set to an instance of an object.
+2022-03-24 13:44:38.1859 INFO Returned all visiting detail report from database.
+2022-03-24 13:47:06.4123 INFO Returned all visiting detail report list from database.
+2022-03-24 14:41:33.5048 INFO Returned Visiting with id: 9a19c826-0349-4d02-85d3-08da0ca283cb

@@ -1,0 +1,17 @@
+2022-06-30 01:18:22.8716 INFO Returned all visiting by login id from database.
+2022-06-30 01:33:10.2330 INFO Returned all event by login id from database.
+2022-06-30 01:33:50.5388 INFO Returned all event by login id from database.
+2022-06-30 16:11:16.8235 INFO Returned push notification with recipient id: c09252b9-1887-487f-815c-08da540f8e73
+2022-06-30 16:13:02.5451 INFO Returned push notification with recipient id: c09252b9-1887-487f-815c-08da540f8e73
+2022-06-30 16:13:10.2132 INFO Returned push notification with recipient id: c09252b9-1887-487f-815c-08da540f8e73
+2022-06-30 16:13:10.7086 ERROR Something went wrong inside GetPushNotificationByRecipientId action: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[MPMSRS.Models.Entities.PushNotifications, MPMSRS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[MPMSRS.Models.VM.PushNotificationDto, MPMSRS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+2022-06-30 16:13:54.7853 INFO Returned push notification with recipient id: c09252b9-1887-487f-815c-08da540f8e73
+2022-06-30 16:17:09.6053 INFO Returned push notification with recipient id: c09252b9-1887-487f-815c-08da540f8e73
+2022-06-30 17:21:07.0017 ERROR Something went wrong inside GetPushNotificationByRecipientId action: The number of rows provided for a FETCH clause must be greater then zero.
+2022-06-30 17:21:29.7326 ERROR Something went wrong inside GetPushNotificationByRecipientId action: The number of rows provided for a FETCH clause must be greater then zero.
+2022-06-30 17:23:04.2187 ERROR Something went wrong inside GetPushNotificationByRecipientId action: The number of rows provided for a FETCH clause must be greater then zero.
+2022-06-30 17:23:22.5087 INFO Returned push notification with recipient id: c09252b9-1887-487f-815c-08da540f8e73

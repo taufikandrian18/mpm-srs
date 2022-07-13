@@ -1,0 +1,6 @@
+2022-02-16 02:04:05.9510 ERROR Token Could not be Generated
+2022-02-16 02:40:37.4926 ERROR Token Could not be Generated
+2022-02-16 03:44:16.3259 ERROR Token Could not be Generated
+2022-02-16 03:44:48.9318 ERROR Token Could not be Generated
+2022-02-16 10:15:07.8844 ERROR Token Could not be Generated
+2022-02-16 10:57:11.0991 ERROR Something went wrong inside GetUserById action: An error occurred while updating the entries. See the inner exception for details.

@@ -1,0 +1,9 @@
+2022-04-29 02:44:55.5265 ERROR file template format sent from client is invalid.
+2022-04-29 02:51:00.6599 ERROR problem category with name : Import Excel1, not found in files, Please check again
+2022-04-29 06:35:14.4956 INFO Returned all visiting detail report from database.
+2022-04-29 06:38:41.5194 INFO Returned all visiting detail report from database.
+2022-04-29 06:39:16.3501 INFO Returned all visiting detail report from database.
+2022-04-29 06:48:39.5936 INFO Returned all visiting detail report from database.
+2022-04-29 06:49:18.3540 INFO Returned all visiting detail report from database.
+2022-04-29 06:51:06.4920 INFO Returned all visiting detail report from database.
+2022-04-29 07:25:52.9674 INFO Returned all visiting detail report from database.

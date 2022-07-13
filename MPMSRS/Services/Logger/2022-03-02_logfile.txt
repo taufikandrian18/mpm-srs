@@ -1,0 +1,27 @@
+2022-03-02 18:41:37.6516 ERROR Something went wrong inside UpdateUser action: Object reference not set to an instance of an object.
+2022-03-02 18:42:58.9614 ERROR Something went wrong inside UpdateUser action: Error mapping types.
+
+Mapping types:
+UserForUpdateDto -> Users
+MPMSRS.Models.VM.UserForUpdateDto -> MPMSRS.Models.Entities.Users
+
+Type Map configuration:
+UserForUpdateDto -> Users
+MPMSRS.Models.VM.UserForUpdateDto -> MPMSRS.Models.Entities.Users
+
+Destination Member:
+Division
+
+2022-03-02 18:43:37.4228 ERROR Something went wrong inside UpdateUser action: Error mapping types.
+
+Mapping types:
+UserForUpdateDto -> Users
+MPMSRS.Models.VM.UserForUpdateDto -> MPMSRS.Models.Entities.Users
+
+Type Map configuration:
+UserForUpdateDto -> Users
+MPMSRS.Models.VM.UserForUpdateDto -> MPMSRS.Models.Entities.Users
+
+Destination Member:
+Division
+

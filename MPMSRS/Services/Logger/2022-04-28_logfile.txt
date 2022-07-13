@@ -1,0 +1,7 @@
+2022-04-28 00:48:10.6692 ERROR file template format sent from client is invalid.
+2022-04-28 00:51:29.6685 ERROR data in row: 2, can't be empty.
+2022-04-28 00:57:10.9324 ERROR data in row: 3, can't be empty.
+2022-04-28 01:07:51.4309 ERROR data in row: 3, can't be empty.
+2022-04-28 01:14:27.0461 ERROR Something went wrong inside VisitingDetailReportImportExcel action: An exception was thrown while attempting to evaluate a LINQ query parameter expression. See the inner exception for more information. To show additional information call 'DbContextOptionsBuilder.EnableSensitiveDataLogging'.
+2022-04-28 01:26:21.6323 ERROR Something went wrong inside VisitingDetailReportImportExcel action: An exception was thrown while attempting to evaluate a LINQ query parameter expression. See the inner exception for more information. To show additional information call 'DbContextOptionsBuilder.EnableSensitiveDataLogging'.
+2022-04-28 01:27:09.1008 ERROR Something went wrong inside VisitingDetailReportImportExcel action: An exception was thrown while attempting to evaluate a LINQ query parameter expression. See the inner exception for more information. To show additional information call 'DbContextOptionsBuilder.EnableSensitiveDataLogging'.

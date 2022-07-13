@@ -1,0 +1,6 @@
+2022-06-02 17:32:50.7243 ERROR Something went wrong inside UpdateUser action: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+UserProdilePictureForUpdateDto -> Users
+MPMSRS.Models.VM.UserProdilePictureForUpdateDto -> MPMSRS.Models.Entities.Users
+2022-06-02 20:09:57.5901 ERROR Something went wrong inside UpdateUser action: A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 35 - An internal exception was caught)

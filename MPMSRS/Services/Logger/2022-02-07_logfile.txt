@@ -1,0 +1,25 @@
+2022-02-07 15:47:29.3817 INFO Returned Token By EmployeeId from database.
+2022-02-07 15:47:29.7906 ERROR Something went wrong inside GetAllUsers action: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Task`1 -> IEnumerable`1
+System.Threading.Tasks.Task`1[[MPMSRS.Models.Entities.RefreshToken, MPMSRS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[MPMSRS.Models.Entities.RefreshToken, MPMSRS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+2022-02-07 15:47:52.3652 INFO Returned Token By EmployeeId from database.
+2022-02-07 15:47:52.6133 ERROR Something went wrong inside GetAllUsers action: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Task`1 -> IEnumerable`1
+System.Threading.Tasks.Task`1[[MPMSRS.Models.Entities.RefreshToken, MPMSRS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[MPMSRS.Models.Entities.RefreshToken, MPMSRS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+2022-02-07 15:48:16.2331 INFO Returned Token By EmployeeId from database.
+2022-02-07 15:48:16.4866 ERROR Something went wrong inside GetAllUsers action: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Task`1 -> IEnumerable`1
+System.Threading.Tasks.Task`1[[MPMSRS.Models.Entities.RefreshToken, MPMSRS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[MPMSRS.Models.Entities.RefreshToken, MPMSRS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+2022-02-07 15:52:40.8015 INFO Returned Token By EmployeeId from database.
+2022-02-07 15:54:29.0799 INFO Returned Token By EmployeeId from database.
+2022-02-07 15:56:07.1970 INFO Returned user with id: d4748506-2779-4e16-11b5-08d9ea1632e8
+2022-02-07 16:07:17.3645 INFO Returned Token By EmployeeId from database.
+2022-02-07 16:09:45.1525 INFO Returned Token By EmployeeId from database.
+2022-02-07 16:11:13.1551 INFO Returned all users from database.
+2022-02-07 16:14:50.0862 INFO Returned Token By EmployeeId from database.

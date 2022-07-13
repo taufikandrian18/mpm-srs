@@ -1,0 +1,1 @@
+2022-03-21 23:43:21.0063 ERROR Something went wrong inside CreateVisitingDetailReport action: An error occurred while updating the entries. See the inner exception for details.

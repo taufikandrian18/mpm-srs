@@ -1,0 +1,13 @@
+2022-04-27 02:14:15.1777 ERROR Something went wrong inside ExportExcelVisitingReports action: One or more errors occurred. (The number of rows provided for a FETCH clause must be greater then zero.)
+2022-04-27 02:14:26.2859 ERROR Something went wrong inside ExportExcelVisitingReports action: One or more errors occurred. (The number of rows provided for a FETCH clause must be greater then zero.)
+2022-04-27 02:15:12.6245 ERROR Something went wrong inside ExportExcelVisitingReports action: One or more errors occurred. (The number of rows provided for a FETCH clause must be greater then zero.)
+2022-04-27 02:17:45.9997 ERROR Something went wrong inside ExportExcelVisitingReports action: The number of rows provided for a FETCH clause must be greater then zero.
+2022-04-27 02:18:09.0633 ERROR Something went wrong inside ExportExcelVisitingReports action: The number of rows provided for a FETCH clause must be greater then zero.
+2022-04-27 02:18:43.3468 ERROR Something went wrong inside ExportExcelVisitingReports action: The number of rows provided for a FETCH clause must be greater then zero.
+2022-04-27 02:19:53.1814 ERROR Something went wrong inside ExportExcelVisitingReports action: Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+2022-04-27 02:21:03.4256 ERROR Something went wrong inside ExportExcelVisitingReports action: Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+2022-04-27 02:25:28.4746 ERROR Something went wrong inside ExportExcelVisitingReports action: Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+2022-04-27 02:26:36.3632 ERROR Something went wrong inside ExportExcelVisitingReports action: Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+2022-04-27 02:27:48.1625 ERROR Something went wrong inside ExportExcelVisitingReports action: Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+2022-04-27 02:27:51.1109 ERROR Something went wrong inside ExportExcelVisitingReports action: Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+2022-04-27 22:11:46.0090 ERROR Something went wrong inside ExportExcelVisitingReports action: Index and length must refer to a location within the string. (Parameter 'length')

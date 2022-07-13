@@ -1,0 +1,15 @@
+2022-07-07 00:09:04.4483 ERROR Something went wrong inside CreateEventDetailReport action: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+EventDetailReportForCreationDtoModel -> EventDetailReports
+MPMSRS.Models.VM.EventDetailReportForCreationDtoModel -> MPMSRS.Models.Entities.EventDetailReports
+2022-07-07 00:09:49.6171 ERROR Something went wrong inside CreateEventDetailReport action: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+EventDetailReportForCreationDtoModel -> EventDetailReports
+MPMSRS.Models.VM.EventDetailReportForCreationDtoModel -> MPMSRS.Models.Entities.EventDetailReports
+2022-07-07 00:09:57.2392 ERROR Something went wrong inside CreateEventDetailReport action: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+EventDetailReportForCreationDtoModel -> EventDetailReports
+MPMSRS.Models.VM.EventDetailReportForCreationDtoModel -> MPMSRS.Models.Entities.EventDetailReports

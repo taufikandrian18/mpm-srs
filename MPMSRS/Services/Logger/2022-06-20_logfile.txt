@@ -1,0 +1,30 @@
+2022-06-20 00:53:23.5782 INFO Returned all visiting detail report list from database.
+2022-06-20 01:06:35.7187 INFO Returned all visiting detail report list from database.
+2022-06-20 14:29:04.0547 ERROR Something went wrong inside CreateUser action: A second operation was started on this context before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+2022-06-20 14:32:37.8290 ERROR Something went wrong inside CreateUser action: Cannot save changes for an entity in state 'Unchanged'.
+2022-06-20 15:15:18.9896 ERROR Something went wrong inside CreateUser action: An error occurred while updating the entries. See the inner exception for details.
+2022-06-20 20:48:32.5697 INFO Returned all visitings from database.
+2022-06-20 20:49:14.2729 INFO Returned all visitings from database.
+2022-06-20 20:53:46.5675 ERROR Something went wrong inside GetAllVisitings action: An exception was thrown while attempting to evaluate a LINQ query parameter expression. See the inner exception for more information. To show additional information call 'DbContextOptionsBuilder.EnableSensitiveDataLogging'.
+2022-06-20 20:54:53.7167 ERROR Something went wrong inside GetAllVisitings action: An exception was thrown while attempting to evaluate a LINQ query parameter expression. See the inner exception for more information. To show additional information call 'DbContextOptionsBuilder.EnableSensitiveDataLogging'.
+2022-06-20 20:56:05.8805 ERROR Something went wrong inside GetAllVisitings action: An exception was thrown while attempting to evaluate a LINQ query parameter expression. See the inner exception for more information. To show additional information call 'DbContextOptionsBuilder.EnableSensitiveDataLogging'.
+2022-06-20 20:59:08.4718 ERROR Something went wrong inside GetAllVisitings action: An exception was thrown while attempting to evaluate a LINQ query parameter expression. See the inner exception for more information. To show additional information call 'DbContextOptionsBuilder.EnableSensitiveDataLogging'.
+2022-06-20 21:00:03.0946 ERROR Something went wrong inside GetAllVisitings action: An exception was thrown while attempting to evaluate a LINQ query parameter expression. See the inner exception for more information. To show additional information call 'DbContextOptionsBuilder.EnableSensitiveDataLogging'.
+2022-06-20 21:04:52.9427 INFO Returned all visitings from database.
+2022-06-20 21:06:44.6316 INFO Returned all visitings from database.
+2022-06-20 21:07:04.8331 INFO Returned all visitings from database.
+2022-06-20 21:09:43.4259 INFO Returned all visitings from database.
+2022-06-20 21:10:05.1915 INFO Returned all visitings from database.
+2022-06-20 21:10:26.7292 ERROR Something went wrong inside GetAllVisitings action: Object reference not set to an instance of an object.
+2022-06-20 21:12:15.4466 INFO Returned all visitings from database.
+2022-06-20 21:13:21.3384 ERROR Something went wrong inside GetAllVisitings action: Object reference not set to an instance of an object.
+2022-06-20 21:14:26.9305 ERROR Something went wrong inside GetAllVisitings action: Object reference not set to an instance of an object.
+2022-06-20 21:19:20.0279 INFO Returned all visitings from database.
+2022-06-20 21:19:30.3397 INFO Returned all visitings from database.
+2022-06-20 21:25:41.9393 INFO Returned all visitings from database.
+2022-06-20 21:26:35.9518 INFO Returned all visitings from database.
+2022-06-20 21:32:05.4681 ERROR Something went wrong inside GetAllVisitings action: Object reference not set to an instance of an object.
+2022-06-20 21:37:56.3744 INFO Returned all visitings from database.
+2022-06-20 21:42:56.1225 INFO Returned all visitings from database.
+2022-06-20 21:44:55.4590 INFO Returned all visitings from database.
+2022-06-20 21:46:07.6016 INFO Returned all visitings from database.

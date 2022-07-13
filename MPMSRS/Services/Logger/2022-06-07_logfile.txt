@@ -1,0 +1,6 @@
+2022-06-07 13:21:36.9476 ERROR Something went wrong inside CreateUser action: Object reference not set to an instance of an object.
+2022-06-07 13:21:51.2854 ERROR Something went wrong inside CreateUser action: Object reference not set to an instance of an object.
+2022-06-07 13:22:01.0933 ERROR Something went wrong inside CreateUser action: Object reference not set to an instance of an object.
+2022-06-07 13:23:54.5607 ERROR Something went wrong inside CreateUser action: Object reference not set to an instance of an object.
+2022-06-07 13:25:00.2790 ERROR Something went wrong inside CreateUser action: Object reference not set to an instance of an object.
+2022-06-07 13:27:13.3424 ERROR Something went wrong inside CreateUser action: Object reference not set to an instance of an object.

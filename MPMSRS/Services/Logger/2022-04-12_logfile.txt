@@ -1,0 +1,3 @@
+2022-04-12 15:08:36.8820 ERROR Something went wrong inside CreateVisitingDetailReport action: Value cannot be null. (Parameter 'source')
+2022-04-12 15:11:24.1093 ERROR Something went wrong inside CreateVisitingDetailReport action: Object reference not set to an instance of an object.
+2022-04-12 15:14:56.1995 ERROR Something went wrong inside CreateVisitingDetailReport action: Object reference not set to an instance of an object.

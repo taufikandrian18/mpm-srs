@@ -1,0 +1,10 @@
+2022-06-06 13:19:23.1380 INFO Returned user with id: f347ffc9-f442-4316-2bdc-08da18afe9cc
+2022-06-06 15:33:24.9925 ERROR Something went wrong inside CreateUser action: A second operation was started on this context before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+2022-06-06 15:36:08.9343 INFO Returned all visiting Reports from database.
+2022-06-06 15:49:07.7512 INFO Returned all visiting Reports from database.
+2022-06-06 15:49:58.2798 INFO Returned all visiting Reports from database.
+2022-06-06 15:50:38.6679 INFO Returned all visiting Reports from database.
+2022-06-06 22:59:17.0527 ERROR User object sent from client wrong username or password.
+2022-06-06 23:19:40.8612 ERROR User object sent from client wrong username or password.
+2022-06-06 23:20:45.8595 ERROR User object sent from client wrong username or password.
+2022-06-06 23:21:39.7902 ERROR User object sent from client wrong username or password.

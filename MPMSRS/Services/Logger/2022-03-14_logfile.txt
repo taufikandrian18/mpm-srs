@@ -1,0 +1,48 @@
+2022-03-14 00:58:24.4563 INFO Returned all network by login id from database.
+2022-03-14 23:23:56.8748 INFO Returned all network by login id from database.
+2022-03-14 23:35:11.3276 ERROR Something went wrong inside GetVisitingStatusByPeopleLoginId action: The LINQ expression 'DbSet<Visitings>()
+    .Where(ow => ow.IsDeleted == False && ow.VisitingStatus.Equals(__status_0))
+    .Join(
+        inner: DbSet<VisitingPeoples>(), 
+        outerKeySelector: u => u.VisitingId, 
+        innerKeySelector: n => n.VisitingId, 
+        resultSelector: (u, n) => new { 
+            u = u, 
+            n = n
+         })
+    .Where(q => q.n.EmployeeId == __EmployeeId_1)
+    .Select((vs, vp) => new { 
+        vs = vs, 
+        vp = vp
+     })' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+2022-03-14 23:37:09.8345 ERROR Something went wrong inside GetVisitingStatusByPeopleLoginId action: The LINQ expression 'DbSet<Visitings>()
+    .Where(ow => ow.IsDeleted == False && ow.VisitingStatus.Equals(__status_0))
+    .Join(
+        inner: DbSet<VisitingPeoples>(), 
+        outerKeySelector: u => u.VisitingId, 
+        innerKeySelector: n => n.VisitingId, 
+        resultSelector: (u, n) => new { 
+            u = u, 
+            n = n
+         })
+    .Where(q => q.n.EmployeeId == __EmployeeId_1)
+    .Select((vs, vp) => new { 
+        vs = vs, 
+        vp = vp
+     })' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+2022-03-14 23:43:01.5552 ERROR Something went wrong inside GetVisitingStatusByPeopleLoginId action: The LINQ expression 'DbSet<Visitings>()
+    .Where(ow => ow.IsDeleted == False && ow.VisitingStatus.Equals(__status_0))
+    .Join(
+        inner: DbSet<VisitingPeoples>(), 
+        outerKeySelector: u => u.VisitingId, 
+        innerKeySelector: n => n.VisitingId, 
+        resultSelector: (u, n) => new { 
+            u = u, 
+            n = n
+         })
+    .Where(q => q.n.EmployeeId == __EmployeeId_1)
+    .Select((vs, vp) => new { 
+        vs = vs, 
+        vp = vp
+     })' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+2022-03-14 23:54:50.5483 INFO Returned all network by login id from database.

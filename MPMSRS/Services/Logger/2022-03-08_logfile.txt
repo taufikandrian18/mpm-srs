@@ -1,0 +1,45 @@
+2022-03-08 13:36:52.5362 INFO Returned all network by login id from database.
+2022-03-08 13:37:21.2221 ERROR Something went wrong inside GetAllUserNetworkMappingByLoginId action: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[MPMSRS.Models.Entities.UserNetworkMappings, MPMSRS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[MPMSRS.Models.VM.NetworkDto, MPMSRS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+2022-03-08 13:37:53.5936 INFO Returned all network by login id from database.
+2022-03-08 13:46:09.5951 INFO Returned all network by login id from database.
+2022-03-08 14:18:31.2425 ERROR Something went wrong inside GetAllUserNetworkMappingByLoginId action: The LINQ expression 'DbSet<UserNetworkMappings>()
+    .Where(ow => ow.EmployeeId == __employeeId_0 && ow.IsDeleted == False)
+    .Join(
+        inner: DbSet<Networks>(), 
+        outerKeySelector: u => u.NetworkId, 
+        innerKeySelector: n => n.NetworkId, 
+        resultSelector: (u, n) => new { 
+            u = u, 
+            n = n
+         })
+    .Select((x, c) => new UserNetworkMappingDtoViewModel{ 
+        UserNetworkMappingId = x.u.UserNetworkMappingId, 
+        Network = x.u.Network 
+    }
+    )' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+2022-03-08 14:18:57.6214 ERROR Something went wrong inside GetAllUserNetworkMappingByLoginId action: The LINQ expression 'DbSet<UserNetworkMappings>()
+    .Where(ow => ow.EmployeeId == __employeeId_0 && ow.IsDeleted == False)
+    .Join(
+        inner: DbSet<Networks>(), 
+        outerKeySelector: u => u.NetworkId, 
+        innerKeySelector: n => n.NetworkId, 
+        resultSelector: (u, n) => new { 
+            u = u, 
+            n = n
+         })
+    .Select((x, c) => new UserNetworkMappingDtoViewModel{ 
+        UserNetworkMappingId = x.u.UserNetworkMappingId, 
+        Network = x.u.Network 
+    }
+    )' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+2022-03-08 14:21:56.0658 INFO Returned all network by employee id from database.
+2022-03-08 14:21:56.3564 ERROR Something went wrong inside GetAllUserNetworkMappingByLoginId action: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[MPMSRS.Models.VM.UserNetworkMappingDtoViewModel, MPMSRS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[MPMSRS.Models.VM.NetworkDto, MPMSRS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+2022-03-08 14:22:31.2400 INFO Returned all network by employee id from database.

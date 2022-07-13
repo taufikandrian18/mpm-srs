@@ -1,0 +1,4 @@
+2022-02-24 22:48:43.2003 ERROR Something went wrong inside GetUserById action: Object reference not set to an instance of an object.
+2022-02-24 22:52:18.1556 ERROR Something went wrong inside GetUserById action: Object reference not set to an instance of an object.
+2022-02-24 22:59:45.2900 ERROR Something went wrong inside GetUserById action: Object reference not set to an instance of an object.
+2022-02-24 23:09:39.3904 INFO Returned user with id: 6bdf0040-ee86-462e-a15a-08d9f2c4720a

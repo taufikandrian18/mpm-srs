@@ -1,0 +1,52 @@
+2022-04-04 15:54:17.8579 INFO Returned all visiting detail report from database.
+2022-04-04 16:00:43.4193 INFO Returned all visiting by login id from database.
+2022-04-04 16:15:47.2650 INFO Returned all visiting by login id from database.
+2022-04-04 16:20:23.5103 ERROR Something went wrong inside GetVisitingStatusByCreateLoginId action: The LINQ expression 'DbSet<Users>()
+    .Where(u => MaterializeCollectionNavigation(
+        Navigation: Visitings.VisitingPeoples,
+        subquery: DbSet<VisitingPeoples>()
+            .Where(v3 => EF.Property<Nullable<Guid>>(EntityShaperExpression: 
+                EntityType: Visitings
+                ValueBufferExpression: 
+                    ProjectionBindingExpression: Outer.Outer.Outer
+                IsNullable: False
+            , "VisitingId") != null && object.Equals(
+                objA: (object)EF.Property<Nullable<Guid>>(EntityShaperExpression: 
+                    EntityType: Visitings
+                    ValueBufferExpression: 
+                        ProjectionBindingExpression: Outer.Outer.Outer
+                    IsNullable: False
+                , "VisitingId"), 
+                objB: (object)EF.Property<Nullable<Guid>>(v3, "VisitingId")))
+        .Select(x => x.EmployeeId)
+        .Contains(u.EmployeeId))' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+2022-04-04 16:28:56.9471 INFO Returned all visiting by login id from database.
+2022-04-04 16:29:47.9984 ERROR Something went wrong inside GetVisitingStatusByCreateLoginId action: There is already an open DataReader associated with this Connection which must be closed first.
+2022-04-04 16:30:04.6082 ERROR Something went wrong inside GetVisitingStatusByCreateLoginId action: There is already an open DataReader associated with this Connection which must be closed first.
+2022-04-04 16:30:48.9099 ERROR Something went wrong inside GetVisitingStatusByCreateLoginId action: There is already an open DataReader associated with this Connection which must be closed first.
+2022-04-04 16:35:27.5818 INFO Returned all visiting by login id from database.
+2022-04-04 16:44:06.1487 INFO Returned all visiting by login id from database.
+2022-04-04 16:46:17.7462 INFO Returned all visiting by login id from database.
+2022-04-04 16:47:52.0577 INFO Returned all visiting by login id from database.
+2022-04-04 17:15:35.9899 INFO Returned all visiting by login id from database.
+2022-04-04 17:17:04.6341 INFO Returned all visiting by login id from database.
+2022-04-04 17:17:12.3288 INFO Returned all visiting by login id from database.
+2022-04-04 17:25:07.9968 INFO Returned all visiting by login id from database.
+2022-04-04 17:26:26.2359 INFO Returned all visiting by login id from database.
+2022-04-04 17:32:59.0386 INFO Returned all visiting by login id from database.
+2022-04-04 17:34:01.2153 ERROR User object sent from client wrong username or password.
+2022-04-04 17:34:40.1399 ERROR User object role sent is not belong to Admin User.
+2022-04-04 17:36:39.9463 ERROR User object sent from client wrong username or password.
+2022-04-04 17:37:03.1173 INFO Returned all visiting by login id from database.
+2022-04-04 17:37:17.5961 ERROR User object sent from client wrong username or password.
+2022-04-04 17:38:19.6668 ERROR User object role sent is not belong to Admin User.
+2022-04-04 17:42:46.3677 INFO Returned all visiting by login id from database.
+2022-04-04 17:48:54.9056 ERROR Visiting with id: 00000000-0000-0000-0000-000000000000, hasn't been found in db.
+2022-04-04 17:49:53.5674 INFO Returned Visiting with id: 93e9bad7-9604-412c-4915-08da122619d4
+2022-04-04 17:52:53.7057 INFO Returned Visiting with id: 93e9bad7-9604-412c-4915-08da122619d4
+2022-04-04 18:10:02.8326 INFO Returned all corrective action from database.
+2022-04-04 19:29:00.2047 INFO Returned all corrective action from database.
+2022-04-04 20:03:55.5133 INFO Returned all visiting by login id from database.
+2022-04-04 20:04:54.1788 INFO Returned all visiting by login id from database.
+2022-04-04 20:06:10.1748 INFO Returned all visiting by login id from database.
+2022-04-04 20:08:08.2196 INFO Returned all corrective action from database.

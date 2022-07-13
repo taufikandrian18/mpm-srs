@@ -1,0 +1,3 @@
+2022-03-18 10:23:18.0915 ERROR Something went wrong inside CreateUser action: Object reference not set to an instance of an object.
+2022-03-18 11:20:45.9057 INFO Returned all network by employee id from database.
+2022-03-18 11:35:36.8202 ERROR Something went wrong inside CreateUserNetworkMapping action: Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.

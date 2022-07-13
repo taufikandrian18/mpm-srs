@@ -1,0 +1,9 @@
+2022-07-12 15:29:43.6458 ERROR Something went wrong inside GetAllChecklists action: Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+2022-07-12 15:35:55.3653 INFO Returned all checklists from database.
+2022-07-12 18:16:14.1985 INFO Returned Visiting with id: 00e8c5db-f26d-43c4-601a-08da63e547c6
+2022-07-12 18:19:12.1729 ERROR Visiting with id: 00e8c5db-f26d-43c4-601a-08da63e547c6, hasn't been found in db.
+2022-07-12 18:21:01.3097 ERROR Visiting with id: 00e8c5db-f26d-43c4-601a-08da63e547c6, hasn't been found in db.
+2022-07-12 18:24:03.3646 INFO Returned Visiting with id: 00e8c5db-f26d-43c4-601a-08da63e547c6
+2022-07-12 18:25:32.0015 INFO Returned Visiting with id: a04a59e8-02a2-4999-6019-08da63e547c6
+2022-07-12 18:35:44.3234 INFO Returned all event detail report list from database.
+2022-07-12 18:38:24.2351 INFO Returned all event detail report list from database.

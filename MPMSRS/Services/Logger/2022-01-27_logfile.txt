@@ -1,0 +1,7 @@
+2022-01-27 04:20:45.2226 ERROR Something went wrong inside GetUserById action: Object reference not set to an instance of an object.
+2022-01-27 06:57:46.5883 ERROR User object sent from client wrong username or password.
+2022-01-27 16:37:47.9183 INFO Returned all users from database.
+2022-01-27 16:44:25.4312 INFO Returned all users from database.
+2022-01-27 17:05:58.2655 ERROR Email Does Not Match With The Current System.
+2022-01-27 17:24:36.1386 ERROR User object sent from client wrong username or password.
+2022-01-27 17:26:22.4090 ERROR User object sent from client wrong username or password.

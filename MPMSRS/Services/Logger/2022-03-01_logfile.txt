@@ -1,0 +1,154 @@
+2022-03-01 17:41:29.7833 ERROR Something went wrong inside CreateUser action: Object reference not set to an instance of an object.
+2022-03-01 17:42:00.8889 ERROR User object sent from client wrong username or password.
+2022-03-01 17:43:24.0973 ERROR Something went wrong inside CreateUser action: Object reference not set to an instance of an object.
+2022-03-01 17:45:25.6626 ERROR Something went wrong inside CreateUser action: Object reference not set to an instance of an object.
+2022-03-01 17:46:23.6245 ERROR Something went wrong inside CreateUser action: Object reference not set to an instance of an object.
+2022-03-01 17:49:50.1109 ERROR Something went wrong inside CreateUser action: Object reference not set to an instance of an object.
+2022-03-01 17:52:25.1255 ERROR Something went wrong inside CreateUser action: Object reference not set to an instance of an object.
+2022-03-01 18:35:28.3186 ERROR User object sent from client wrong username or password.
+2022-03-01 18:37:31.9771 ERROR User object sent from client wrong username or password.
+2022-03-01 18:52:14.0121 ERROR User object sent from client wrong username or password.
+2022-03-01 18:55:45.2949 ERROR Something went wrong inside CreateUser action: The LINQ expression 'DbSet<Users>()
+    .GroupJoin(
+        inner: DbSet<Roles>(), 
+        outerKeySelector: users => users.RoleId, 
+        innerKeySelector: roles => (Nullable<Guid>)roles.RoleId, 
+        resultSelector: (roles, users) => new UserDto{ 
+            EmployeeId = roles.EmployeeId, 
+            AttachmentId = roles.AttachmentId, 
+            CompanyId = roles.CompanyId, 
+            Username = roles.Username, 
+            Password = roles.Password, 
+            WorkLocation = roles.WorkLocation, 
+            DisplayName = roles.DisplayName, 
+            Division = roles.Division, 
+            Department = roles.Department, 
+            Phone = roles.Phone, 
+            Email = roles.Email, 
+            InternalTitle = roles.InternalTitle, 
+            CreatedAt = roles.CreatedAt, 
+            CreatedBy = roles.CreatedBy, 
+            UpdatedAt = roles.UpdatedAt, 
+            UpdatedBy = roles.UpdatedBy, 
+            RoleId = (Nullable<Guid>)roles.Role.RoleId, 
+            RoleName = roles.Role.RoleName 
+        }
+    )' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+2022-03-01 18:59:10.5648 ERROR Something went wrong inside CreateUser action: The LINQ expression 'DbSet<Users>()
+    .GroupJoin(
+        inner: DbSet<Roles>(), 
+        outerKeySelector: users => users.RoleId, 
+        innerKeySelector: roles => (Nullable<Guid>)roles.RoleId, 
+        resultSelector: (roles, users) => new UserDto{ 
+            EmployeeId = roles.EmployeeId, 
+            AttachmentId = roles.AttachmentId, 
+            CompanyId = roles.CompanyId, 
+            Username = roles.Username, 
+            Password = roles.Password, 
+            WorkLocation = roles.WorkLocation, 
+            DisplayName = roles.DisplayName, 
+            Division = roles.Division, 
+            Department = roles.Department, 
+            Phone = roles.Phone, 
+            Email = roles.Email, 
+            InternalTitle = roles.InternalTitle, 
+            CreatedAt = roles.CreatedAt, 
+            CreatedBy = roles.CreatedBy, 
+            UpdatedAt = roles.UpdatedAt, 
+            UpdatedBy = roles.UpdatedBy, 
+            Role = users
+                .AsQueryable()
+                .FirstOrDefault() 
+        }
+    )' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+2022-03-01 19:03:29.9797 ERROR Something went wrong inside CreateUser action: The LINQ expression 'DbSet<Users>()
+    .GroupJoin(
+        inner: DbSet<Roles>(), 
+        outerKeySelector: users => users.RoleId, 
+        innerKeySelector: roles => (Nullable<Guid>)roles.RoleId, 
+        resultSelector: (roles, users) => new UserDto{ 
+            EmployeeId = roles.EmployeeId, 
+            AttachmentId = roles.AttachmentId, 
+            CompanyId = roles.CompanyId, 
+            Username = roles.Username, 
+            Password = roles.Password, 
+            WorkLocation = roles.WorkLocation, 
+            DisplayName = roles.DisplayName, 
+            Division = roles.Division, 
+            Department = roles.Department, 
+            Phone = roles.Phone, 
+            Email = roles.Email, 
+            InternalTitle = roles.InternalTitle, 
+            CreatedAt = roles.CreatedAt, 
+            CreatedBy = roles.CreatedBy, 
+            UpdatedAt = roles.UpdatedAt, 
+            UpdatedBy = roles.UpdatedBy, 
+            RoleId = (Nullable<Guid>)users
+                .AsQueryable()
+                .Select(r => r.RoleId)
+                .FirstOrDefault(), 
+            RoleName = users
+                .AsQueryable()
+                .Select(r => r.RoleName)
+                .FirstOrDefault() 
+        }
+    )' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+2022-03-01 19:08:57.3772 ERROR Something went wrong inside CreateUser action: The LINQ expression 'DbSet<Users>()
+    .GroupJoin(
+        inner: DbSet<Roles>(), 
+        outerKeySelector: users => users.RoleId, 
+        innerKeySelector: roles => (Nullable<Guid>)roles.RoleId, 
+        resultSelector: (u, r) => new UserDto{ 
+            EmployeeId = u.EmployeeId, 
+            AttachmentId = u.AttachmentId, 
+            CompanyId = u.CompanyId, 
+            Username = u.Username, 
+            Password = u.Password, 
+            WorkLocation = u.WorkLocation, 
+            DisplayName = u.DisplayName, 
+            Division = u.Division, 
+            Department = u.Department, 
+            Phone = u.Phone, 
+            Email = u.Email, 
+            InternalTitle = u.InternalTitle, 
+            CreatedAt = u.CreatedAt, 
+            CreatedBy = u.CreatedBy, 
+            UpdatedAt = u.UpdatedAt, 
+            UpdatedBy = u.UpdatedBy, 
+            RoleId = (Nullable<Guid>)r
+                .AsQueryable()
+                .Where(q => (Nullable<Guid>)q.RoleId == u.RoleId)
+                .Select(q => q.RoleId)
+                .FirstOrDefault(), 
+            RoleName = r
+                .AsQueryable()
+                .Where(q => (Nullable<Guid>)q.RoleId == u.RoleId)
+                .Select(q => q.RoleName)
+                .FirstOrDefault() 
+        }
+    )' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+2022-03-01 20:19:10.5763 ERROR Something went wrong inside CreateUser action: The LINQ expression 'q' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+2022-03-01 21:49:59.9735 ERROR Something went wrong inside CreateUser action: The LINQ expression 'DbSet<Users>()
+    .Where(Q => Q.Username.Equals(__username_0))
+    .GroupJoin(
+        inner: DbSet<Roles>(), 
+        outerKeySelector: u => u.RoleId, 
+        innerKeySelector: r => (Nullable<Guid>)r.RoleId, 
+        resultSelector: (u, r) => new { 
+            u = u, 
+            r = r
+         })' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+2022-03-01 21:57:36.1229 ERROR Something went wrong inside CreateUser action: The LINQ expression 'DbSet<Users>()
+    .Where(Q => Q.Username.Equals(__username_0))
+    .GroupJoin(
+        inner: DbSet<Roles>(), 
+        outerKeySelector: u => u.RoleId, 
+        innerKeySelector: r => (Nullable<Guid>)r.RoleId, 
+        resultSelector: (u, r) => new { 
+            u = u, 
+            r = r
+         })' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+2022-03-01 22:00:27.7531 ERROR Something went wrong inside CreateUser action: The LINQ expression 'Q' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+2022-03-01 22:01:10.1174 ERROR Something went wrong inside CreateUser action: The LINQ expression 'Q' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+2022-03-01 22:04:52.1184 ERROR Something went wrong inside CreateUser action: Invalid column name 'DivisionId'.
+Invalid column name 'DivisionId'.

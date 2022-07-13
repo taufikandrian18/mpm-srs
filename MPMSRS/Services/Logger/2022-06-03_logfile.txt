@@ -1,0 +1,7 @@
+2022-06-03 13:09:31.5072 INFO Returned all corrective action from database.
+2022-06-03 13:21:43.8730 INFO Returned user with role id: 8e570c4f-3719-4246-d281-08d9fb98a6da and division id: 7c80deda-ab70-407d-1a9b-08d9fb98a719
+2022-06-03 13:25:30.6464 INFO Returned all visiting Reports from database.
+2022-06-03 13:25:53.6721 INFO Returned all visiting Reports from database.
+2022-06-03 13:30:30.7302 ERROR Something went wrong inside ExportExcelVisitingReports action: The type initializer for 'Gdip' threw an exception.
+2022-06-03 13:39:38.7215 INFO Returned all user fcm token from database.
+2022-06-03 13:40:56.9514 INFO Returned user fcm token with employee id: f347ffc9-f442-4316-2bdc-08da18afe9cc
